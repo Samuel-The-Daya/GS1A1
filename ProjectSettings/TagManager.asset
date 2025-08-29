@@ -50,3 +50,6 @@ TagManager:
   - name: Player
     uniqueID: 913917799
     locked: 0
+  - name: Loan Shark
+    uniqueID: 3668312483
+    locked: 0
