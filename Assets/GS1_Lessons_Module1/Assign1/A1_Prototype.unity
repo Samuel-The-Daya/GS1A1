@@ -311,6 +311,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 550817901744147664, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
+      propertyPath: AddContextToTheGameObject
+      value: This here is the player wi
+      objectReference: {fileID: 0}
     - target: {fileID: 1889466449894465817, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -397,13 +401,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7672535010996694448, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 997866551}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3415747412374944051, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 218149152}
-    - targetCorrespondingSourceObject: {fileID: 3415747412374944051, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 218149151}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
 --- !u!4 &162854069 stripped
 Transform:
@@ -612,60 +610,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3415747412374944051, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
   m_PrefabInstance: {fileID: 162854068}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &218149151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218149146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f602edde12f5b32408bdf78e5d6a7826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onButtonPressEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 218149152}
-        m_TargetAssemblyTypeName: PhysicsBooster, Assembly-CSharp
-        m_MethodName: FirePhysicsBoost
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onButtonHeldEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  onButtonReleasedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  DEBUG_MODE: 0
---- !u!114 &218149152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218149146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81e9a2b08009a6e409ffa12a949599c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  addForceAmount: {x: 1, y: 1}
-  addTorqueAmount: 1
-  dragSettingA: 1
-  dragSettingB: 2
-  angularDragSettingA: 1
-  angularDragSettingB: 2
-  space: 1
-  forceMode: 1
 --- !u!1001 &241209334
 PrefabInstance:
   m_ObjectHideFlags: 0
