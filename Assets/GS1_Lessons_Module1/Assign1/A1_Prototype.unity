@@ -541,7 +541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2391398021528191852, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2391398021528191852, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
       propertyPath: forceAmount
@@ -632,9 +632,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3415747412374944051, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 218149147}
-    - targetCorrespondingSourceObject: {fileID: 3415747412374944051, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 218149153}
   m_SourcePrefab: {fileID: 100100000, guid: 2ed5065fb9269e446aa3029d1a772f07, type: 3}
 --- !u!4 &162854069 stripped
 Transform:
@@ -897,22 +894,6 @@ MonoBehaviour:
   angularDragSettingB: 2
   space: 1
   forceMode: 1
---- !u!114 &218149153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218149146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3813a6b79724614c92e2e29db768fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xInput: 0
-  yInput: 0
-  forceAmount: 15
-  torqueAmount: 1
 --- !u!1001 &241209334
 PrefabInstance:
   m_ObjectHideFlags: 0
