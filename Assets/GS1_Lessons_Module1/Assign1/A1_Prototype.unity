@@ -892,7 +892,7 @@ MonoBehaviour:
   dragSettingB: 2
   angularDragSettingA: 1
   angularDragSettingB: 2
-  space: 1
+  space: 0
   forceMode: 1
 --- !u!1001 &241209334
 PrefabInstance:
