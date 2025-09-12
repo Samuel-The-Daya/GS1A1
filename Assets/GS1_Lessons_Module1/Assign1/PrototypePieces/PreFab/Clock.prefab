@@ -42,7 +42,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 2614416710837752317}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: b4211ad666986fe43b76363d02b76245, type: 2}
+  m_Material: {fileID: 6200000, guid: f6aa7d71efab7be47a89e275db08c1e3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -80,7 +80,7 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 256
-  m_ForceMagnitude: 1000000
+  m_ForceMagnitude: 1000
   m_ForceVariation: 0
   m_DistanceScale: 1
   m_ForceSource: 0
