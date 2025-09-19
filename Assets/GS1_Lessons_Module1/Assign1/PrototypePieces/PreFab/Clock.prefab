@@ -98,7 +98,8 @@ GameObject:
   m_Component:
   - component: {fileID: 606993805127523008}
   - component: {fileID: 3576490952800635092}
-  m_Layer: 11
+  - component: {fileID: 2937552120743206126}
+  m_Layer: 18
   m_Name: Collector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,6 +156,36 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &2937552120743206126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4733184777039052337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3aa81ad0c86514ab1d376bbdbb1717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTriggerEnter_Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7972970100524698500}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnTriggerExit_Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7972970100524698500
 GameObject:
   m_ObjectHideFlags: 0

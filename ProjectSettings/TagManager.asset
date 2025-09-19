@@ -12,18 +12,18 @@ TagManager:
   - Water
   - UI
   - Player
-  - PlayerProjectile
+  - PiggyBanks
   - NPC
   - NPCProjectile
   - Ground
-  - Interactables
+  - Clocks
   - Blocks Player Only
   - Blocks NPC Only
   - Collection Server
   - Cash
   - Police
   - PoliceProjectile
-  - 
+  - Collectable
   - 
   - 
   - 
