@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/GS1_Lessons_Module1/Assign1/A1_Prototype.unity
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/TitleScreen.unity
+    guid: 4a4887cc1593da84986bc8d974ffc0ba
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/A1_Game.unity
     guid: 10aadb305d357d641a978396e1463d45
   m_configObjects: {}
