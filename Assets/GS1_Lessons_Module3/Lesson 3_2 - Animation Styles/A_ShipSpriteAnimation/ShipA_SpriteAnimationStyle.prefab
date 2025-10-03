@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3746240661583590812}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6660023596053234177}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2618658011565636543
 MonoBehaviour:
@@ -130,7 +130,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7335209774211068105}
-  - component: {fileID: 3632100953826475090}
   - component: {fileID: 4502955926589032480}
   - component: {fileID: 8837963300108331386}
   - component: {fileID: 3030642148996783474}
@@ -148,28 +147,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5041855396170553961}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.48, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6660023596053234177}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3632100953826475090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5041855396170553961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d692cb3cb637c84b9f5c150c6353f02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  engineSmoke: {fileID: 0}
-  engineSound: {fileID: 0}
 --- !u!198 &4502955926589032480
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -4949,13 +4934,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -5070,7 +5057,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6660023596053234177}
-  - component: {fileID: 4033007768096759328}
   - component: {fileID: 296267441755921429}
   - component: {fileID: 8338353050322556308}
   - component: {fileID: 4664844929482222621}
@@ -5088,6 +5074,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9029648103735556185}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -5096,31 +5083,7 @@ Transform:
   - {fileID: 7335209774211068105}
   - {fileID: 740832024696085964}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4033007768096759328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9029648103735556185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2448768fdc29e2f43bbd1306142dd3b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputVector: {x: 0, y: 0}
-  moveSpeed: 10
-  rotationSpeed: 4
-  forceAmount: 10
-  torqueAmount: 4
-  moveUsingKinematic: 0
-  moveUsingPhysics: 1
-  moveInWorldSpace: 0
-  moveInLocalSpace: 1
-  rigid: {fileID: 0}
-  effects: {fileID: 0}
 --- !u!114 &296267441755921429
 MonoBehaviour:
   m_ObjectHideFlags: 0

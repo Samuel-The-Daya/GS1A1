@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2755640389815226839}
   - component: {fileID: 533699489773802914}
   m_Layer: 0
-  m_Name: Art-Animation A
+  m_Name: Art-Animation B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
