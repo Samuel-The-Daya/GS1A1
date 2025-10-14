@@ -106,7 +106,7 @@ public class CustomizableAnimationManager : MonoBehaviour {
 
     }
 
-    private void UseCustomInput() {
+    public void UseCustomInput() {
         animator.SetBool("CustomInput", customInputForAnim);
         if (customInputForAnim) {
             animator.SetTrigger("CustomInputTrigger");
