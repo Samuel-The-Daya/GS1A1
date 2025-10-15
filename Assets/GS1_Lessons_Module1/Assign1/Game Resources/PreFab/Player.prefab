@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 4775651082520850155}
   - component: {fileID: 1515090835948845046}
   - component: {fileID: 25087488195119303}
-  m_Layer: 6
+  m_Layer: 19
   m_Name: Pusher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -833,7 +833,7 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 2176
-  m_ForceMagnitude: -1
+  m_ForceMagnitude: -5
   m_ForceVariation: 1
   m_DistanceScale: 100
   m_ForceSource: 0
@@ -884,7 +884,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 2}
+  m_Size: {x: 4, y: 3}
   m_EdgeRadius: 0
 --- !u!1 &3698230493017301812
 GameObject:
