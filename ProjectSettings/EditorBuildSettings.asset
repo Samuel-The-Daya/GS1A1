@@ -12,6 +12,45 @@ EditorBuildSettings:
     path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 1.unity
     guid: 7eacc6ab1ba6f05448b699f10f8ad496
   - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 2.unity
+    guid: 2511bb3a6aa20684c90a56b5de1432df
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 3.unity
+    guid: 4e0d7cd9ee7a3234ca228def4156b905
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 4.unity
+    guid: eb1e6b0dad5b5e647b546f931953dd57
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 5.unity
+    guid: 16990fd6149eb9f44b4165618aebafe8
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 6.unity
+    guid: 7ec8d1baa4d8d27408197dc448d61c28
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 7.unity
+    guid: 9aa77faaa17dbcb4abf4a21af20c62d5
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 8.unity
+    guid: b1fc30e0d8fb1f94eb6c4f5b85eb8683
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 9.unity
+    guid: a053b0bcb87fbd34e83bbc5153fbe9e1
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 10.unity
+    guid: ff113a7085809f746b5f1a9b9ab35b60
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 11.unity
+    guid: ad566f875baff9d4b9316f09418c48bd
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 12.unity
+    guid: 9920a9c2067d63048883500aadf78e52
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 13.unity
+    guid: 078587738fda81a40aaffac0e29d7850
+  - enabled: 1
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 14.unity
+    guid: c6e30c2c061f72246958da105b6bb88c
+  - enabled: 1
     path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 15.unity
     guid: 10aadb305d357d641a978396e1463d45
   - enabled: 1
