@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 1.unity
     guid: 7eacc6ab1ba6f05448b699f10f8ad496
   - enabled: 1
-    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/FinalLevel.unity
+    path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/Level 15.unity
     guid: 10aadb305d357d641a978396e1463d45
   - enabled: 1
     path: Assets/GS1_Lessons_Module1/Assign1/Game Resources/WinScreen.unity
